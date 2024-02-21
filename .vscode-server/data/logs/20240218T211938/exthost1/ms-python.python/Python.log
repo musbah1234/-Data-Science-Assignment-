@@ -1,0 +1,37 @@
+2024-02-18 21:20:04.271 [info] Experiment 'pythonaacf' is active
+2024-02-18 21:20:04.271 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-18 21:20:04.271 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-18 21:20:04.272 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-18 21:20:04.272 [info] Experiment 'pythonTestAdapter' is active
+2024-02-18 21:20:04.272 [info] Default formatter is set to null for workspace /home/musbah/projects/Data-Science-Assingment
+2024-02-18 21:20:04.272 [info] Test server listening.
+2024-02-18 21:20:04.272 [info] > conda info --json
+2024-02-18 21:20:04.281 [info] Found: /bin/python3 --> /bin/python3.8
+2024-02-18 21:20:04.342 [info] > ~/.conda/bin/conda info --json
+2024-02-18 21:20:04.370 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-02-18 21:20:04.376 [info] Found: /bin/python3.9 --> /bin/python3.9
+2024-02-18 21:20:04.855 [info] > ~/miniconda3/bin/conda info --json
+2024-02-18 21:20:04.938 [info] > ~/miniconda3/envs/datascience/bin/conda info --json
+2024-02-18 21:20:05.388 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-02-18 21:20:05.397 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-02-18 21:20:05.457 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 21:20:05.464 [info] Found: /usr/bin/python3.9 --> /usr/bin/python3.9
+2024-02-18 21:20:10.903 [info] Python interpreter path: ./venv/bin/python
+2024-02-18 21:20:11.192 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-18 21:20:11.192 [info] shell: bash
+2024-02-18 21:20:11.676 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-18 21:20:11.677 [info] shell: bash
+2024-02-18 21:20:12.953 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-18 21:20:12.953 [info] shell: bash
+2024-02-18 21:20:14.012 [info] > python ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-18 21:20:14.012 [info] shell: bash
+2024-02-18 21:20:14.209 [info] Send text to terminal: python /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-18 21:20:15.262 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 21:20:21.334 [info] Starting Pylance language server.
+2024-02-18 21:20:22.002 [info] > /bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 21:20:22.797 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 21:20:23.148 [info] > /usr/bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 21:20:23.558 [error] Invalid version for /usr/bin/python3.9: {"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python3.9","sysPrefix":"","ctime":1702070409874,"mtime":1692969604000},"display":"Python 3.9.x","version":{"major":3,"minor":9,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python3.9","detailedDisplayName":"Python 3.9.x"}
+2024-02-18 21:20:23.564 [error] Invalid version for /usr/bin/python3.9: {"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python3.9","sysPrefix":"","ctime":1702070409874,"mtime":1692969604000},"display":"Python 3.9.x","version":{"major":3,"minor":9,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python3.9","detailedDisplayName":"Python 3.9.x"}
+2024-02-18 21:20:23.766 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2024-02-18 21:20:23.793 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE

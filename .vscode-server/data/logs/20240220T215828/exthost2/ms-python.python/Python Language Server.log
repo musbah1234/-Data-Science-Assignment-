@@ -1,0 +1,12 @@
+2024-02-20 22:06:13.456 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-20 22:06:15.654 [info] [Info  - 10:06:15 PM] (1276) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-20 22:06:15.656 [info] [Info  - 10:06:15 PM] (1276) Server root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-20 22:06:15.803 [info] [Info  - 10:06:15 PM] (1276) Starting service instance "<default>"
+2024-02-20 22:06:15.909 [info] [Info  - 10:06:15 PM] (1276) Setting pythonPath for service "<default>": "/home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist"
+2024-02-20 22:06:15.910 [info] [Info  - 10:06:15 PM] (1276) Setting environmentName for service "<default>": "3.9.18 (global)"
+2024-02-20 22:06:17.068 [info] [Info  - 10:06:17 PM] (1276) No source files found.
+2024-02-20 22:06:17.866 [info] [Info  - 10:06:17 PM] (1276) Background analysis(1) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-20 22:06:17.867 [info] [Info  - 10:06:17 PM] (1276) Background analysis(1) started
+2024-02-20 22:06:21.829 [info] [Info  - 10:06:21 PM] (1276) [BG(1)] Long operation: parsing: vscode-local:/c%3A/Users/USER/Desktop/Data-Science-Assignment/numpy_Assignment.ipynb.py#Y400sZmlsZQ%3D%3D (2665ms)
+2024-02-20 22:06:25.510 [info] [Info  - 10:06:25 PM] (1276) [BG(1)] Long operation: analyzing: vscode-local:/c%3A/Users/USER/Desktop/Data-Science-Assignment/numpy_Assignment.ipynb.py#Y400sZmlsZQ%3D%3D (6367ms)
+2024-02-20 22:06:27.683 [info] [Info  - 10:06:27 PM] (1276) [BG(1)] Long operation: analyzing: vscode-local:/c%3A/Users/USER/Desktop/Data-Science-Assignment/numpy_Assignment.ipynb.py#pylancePrefixCell (8556ms)

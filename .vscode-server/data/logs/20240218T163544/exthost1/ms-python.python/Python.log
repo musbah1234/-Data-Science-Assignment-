@@ -1,0 +1,70 @@
+2024-02-18 16:36:55.115 [info] Experiment 'pythonaacf' is active
+2024-02-18 16:36:55.115 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-18 16:36:55.116 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-18 16:36:55.116 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-18 16:36:55.116 [info] Experiment 'pythonTestAdapter' is active
+2024-02-18 16:36:55.116 [info] Default formatter is set to null for workspace /home/musbah/projects/Data-Science-Assingment
+2024-02-18 16:36:55.116 [info] Test server listening.
+2024-02-18 16:36:55.116 [info] > conda info --json
+2024-02-18 16:36:56.377 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:37:00.388 [info] > ~/.conda/bin/conda info --json
+2024-02-18 16:37:01.202 [info] > ~/miniconda3/bin/conda info --json
+2024-02-18 16:37:01.292 [info] > ~/miniconda3/envs/datascience/bin/conda info --json
+2024-02-18 16:37:11.383 [error] [Error: Command failed: /home/musbah/projects/Data-Science-Assingment/venv/bin/python -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: null,
+  killed: true,
+  signal: 'SIGTERM',
+  cmd: '/home/musbah/projects/Data-Science-Assingment/venv/bin/python -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-18 16:37:12.563 [info] Found: /bin/python3 --> /bin/python3.8
+2024-02-18 16:37:12.564 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-02-18 16:37:12.565 [info] Found: /bin/python3.9 --> /bin/python3.9
+2024-02-18 16:37:13.435 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:37:21.987 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-02-18 16:37:21.988 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-02-18 16:37:21.988 [info] Found: /usr/bin/python3.9 --> /usr/bin/python3.9
+2024-02-18 16:37:28.438 [error] [Error: Command failed: /home/musbah/projects/Data-Science-Assingment/venv/bin/python -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: null,
+  killed: true,
+  signal: 'SIGTERM',
+  cmd: '/home/musbah/projects/Data-Science-Assingment/venv/bin/python -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-18 16:37:32.514 [info] Starting Pylance language server.
+2024-02-18 16:37:49.303 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:37:49.471 [info] > /bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:37:49.722 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:37:49.968 [info] > /usr/bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:38:04.573 [error] [Error: Command failed: /bin/python3.9 -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: null,
+  killed: true,
+  signal: 'SIGTERM',
+  cmd: '/bin/python3.9 -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-18 16:38:04.980 [error] [Error: Command failed: /usr/bin/python3.9 -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: null,
+  killed: true,
+  signal: 'SIGTERM',
+  cmd: '/usr/bin/python3.9 -I /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /home/musbah/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-18 16:38:11.884 [info] > /bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-18 16:38:12.050 [info] > /usr/bin/python3.9 -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py

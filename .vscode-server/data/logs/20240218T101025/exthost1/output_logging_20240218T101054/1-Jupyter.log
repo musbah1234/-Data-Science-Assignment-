@@ -1,0 +1,14 @@
+Visual Studio Code (1.86.2, wsl, desktop)
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+Workspace folder ~/projects/Data-Science-Assingment, Home = /home/musbah
+10:11:12.382 [info] Start refreshing Kernel Picker (1708247472382)
+10:11:12.453 [info] Using Pylance
+10:11:21.615 [info] Start refreshing Interpreter Kernel Picker
+10:12:01.902 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+10:12:01.904 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+10:12:02.010 [error] Failed to get env details from Python API for ~/projects/Data-Science-Assingment/venv/bin/python without an error
+10:12:15.095 [info] No interpreter for Pylance for Notebook URI "~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb"
+10:12:27.497 [info] End refreshing Kernel Picker (1708247472382)

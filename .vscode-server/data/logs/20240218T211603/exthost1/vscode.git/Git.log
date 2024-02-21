@@ -1,0 +1,24 @@
+2024-02-18 21:16:35.511 [info] Log level: Info
+2024-02-18 21:16:35.511 [info] Validating found git in: "git"
+2024-02-18 21:16:35.511 [info] Using git "2.25.1" from "git"
+2024-02-18 21:16:35.512 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-18 21:16:35.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:16:35.512 [info] > git rev-parse --show-toplevel [49ms]
+2024-02-18 21:16:35.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:16:35.512 [info] > git rev-parse --show-toplevel [61ms]
+2024-02-18 21:16:35.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:16:35.512 [info] > git rev-parse --show-toplevel [433ms]
+2024-02-18 21:16:35.512 [info] > git rev-parse --git-dir --git-common-dir [17141ms]
+2024-02-18 21:16:35.512 [info] Open repository: /home/musbah/projects/Data-Science-Assingment/python-30days-assignment
+2024-02-18 21:16:35.636 [info] > git rev-parse --show-toplevel [182ms]
+2024-02-18 21:16:35.636 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:16:35.645 [info] > git config --get commit.template [270ms]
+2024-02-18 21:16:38.202 [info] > git check-ignore -v -z --stdin [225ms]
+2024-02-18 21:16:38.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2412ms]
+2024-02-18 21:16:38.659 [info] > git status -z -uall [174ms]
+2024-02-18 21:16:41.560 [info] > git config --get commit.template [2213ms]
+2024-02-18 21:16:42.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [611ms]
+2024-02-18 21:16:43.102 [info] > git status -z -uall [421ms]
+2024-02-18 21:18:07.386 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-18 21:18:43.617 [info] > git rev-parse --show-toplevel [21ms]
+2024-02-18 21:18:43.617 [info] fatal: not a git repository (or any of the parent directories): .git

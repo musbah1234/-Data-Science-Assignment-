@@ -1,0 +1,28 @@
+Visual Studio Code (1.86.2, wsl, desktop)
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+Workspace folder ~/projects/Data-Science-Assingment, Home = /home/musbah
+21:16:26.632 [info] Start refreshing Kernel Picker (1708287386631)
+21:16:26.698 [info] Using Pylance
+21:16:28.368 [info] Start refreshing Interpreter Kernel Picker
+21:16:44.261 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher  (Python Path: ~/projects/Data-Science-Assingment/venv/bin/python, Venv, venv, 3.8.10) for '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' (disableUI=true)
+21:16:46.098 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m pip list
+21:16:46.345 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:16:46.501 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-5496xglh1mZOpRci.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+21:16:46.502 [info] Kernel process 5552.
+21:17:03.815 [warn] Waited 17298ms for kernel to start [Error: timeout
+	at Timeout.p (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:55:1754)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+21:17:17.571 [info] End refreshing Kernel Picker (1708287386631)
+21:17:55.561 [info] Registering Kernel Completion Provider from kernel venv (Python) for language python
+21:17:55.626 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/pythonFiles/printJupyterDataDir.py
+21:17:55.712 [warn] Got an empty Jupyter Data Dir from ~/projects/Data-Science-Assingment/venv/bin/python, stderr = undefined
+21:17:55.712 [warn] sysPrefix was not set for ~/projects/Data-Science-Assingment/venv/bin/python
+21:19:20.027 [info] Disposing HostJupyterExecution
+21:19:20.028 [info] Dispose Kernel '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' associated with '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+21:19:20.030 [info] Dispose Kernel process 5552.
+21:19:20.157 [info] Disposing HostJupyterExecution

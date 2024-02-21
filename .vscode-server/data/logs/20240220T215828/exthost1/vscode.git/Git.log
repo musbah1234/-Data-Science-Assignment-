@@ -1,0 +1,61 @@
+2024-02-20 21:58:39.270 [info] Log level: Info
+2024-02-20 21:58:39.272 [info] Validating found git in: "git"
+2024-02-20 21:58:39.272 [info] Using git "2.25.1" from "git"
+2024-02-20 21:58:39.272 [info] > git rev-parse --show-toplevel [289ms]
+2024-02-20 21:58:39.272 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-20 21:58:39.452 [info] > git rev-parse --show-toplevel [195ms]
+2024-02-20 21:58:39.615 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2024-02-20 21:58:39.698 [info] Open repository: /home/musbah/projects/ArewaDS-Machine-Learning
+2024-02-20 21:58:40.841 [info] > git rev-parse --show-toplevel [620ms]
+2024-02-20 21:58:40.852 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-20 21:58:40.855 [info] > git config --get commit.template [968ms]
+2024-02-20 21:58:41.365 [info] > git check-ignore -v -z --stdin [306ms]
+2024-02-20 21:58:41.465 [info] > git rev-parse --show-toplevel [303ms]
+2024-02-20 21:58:41.677 [info] > git rev-parse --git-dir --git-common-dir [152ms]
+2024-02-20 21:58:41.735 [info] Open repository: /home/musbah/projects/arewa-ds-workspace
+2024-02-20 21:58:42.350 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1000ms]
+2024-02-20 21:58:42.527 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/ArewaDS-Machine-Learning/.git/refs/remotes/origin/main'
+2024-02-20 21:58:42.538 [info] > git rev-parse --show-toplevel [340ms]
+2024-02-20 21:58:42.538 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-20 21:58:42.540 [info] > git config --get commit.template [597ms]
+2024-02-20 21:58:42.772 [info] > git rev-parse refs/remotes/origin/main [246ms]
+2024-02-20 21:58:52.721 [info] > git check-ignore -v -z --stdin [203ms]
+2024-02-20 21:58:52.723 [info] > git check-ignore -v -z --stdin [119ms]
+2024-02-20 21:58:52.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9961ms]
+2024-02-20 21:58:52.790 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/arewa-ds-workspace/.git/refs/remotes/origin/main'
+2024-02-20 21:58:52.794 [info] > git rev-parse --show-toplevel [85ms]
+2024-02-20 21:58:52.794 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-20 21:58:52.839 [info] > git rev-parse refs/remotes/origin/main [50ms]
+2024-02-20 21:58:53.029 [info] > git rev-parse --show-toplevel [197ms]
+2024-02-20 21:58:53.030 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-20 21:58:53.241 [info] > git status -z -uall [366ms]
+2024-02-20 21:58:53.483 [info] > git config --get commit.template [112ms]
+2024-02-20 21:58:53.551 [info] > git merge-base refs/heads/main refs/remotes/origin/main [116ms]
+2024-02-20 21:58:53.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [64ms]
+2024-02-20 21:58:53.677 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/arewa-ds-workspace/.git/refs/remotes/origin/main'
+2024-02-20 21:58:53.786 [info] > git rev-parse refs/remotes/origin/main [110ms]
+2024-02-20 21:58:53.821 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [228ms]
+2024-02-20 21:58:53.841 [info] > git status -z -uall [22ms]
+2024-02-20 21:59:00.783 [info] > git status -z -uall [17869ms]
+2024-02-20 21:59:00.965 [info] > git config --get commit.template [75ms]
+2024-02-20 21:59:01.024 [info] > git merge-base refs/heads/main refs/remotes/origin/main [72ms]
+2024-02-20 21:59:01.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2024-02-20 21:59:01.147 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/ArewaDS-Machine-Learning/.git/refs/remotes/origin/main'
+2024-02-20 21:59:01.150 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [71ms]
+2024-02-20 21:59:01.162 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-02-20 21:59:01.437 [info] > git status -z -uall [224ms]
+2024-02-21 10:36:31.974 [info] > git rev-parse --show-toplevel [22ms]
+2024-02-21 10:36:32.026 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-02-21 10:36:32.057 [info] Open repository: /home/musbah/projects/Data-Science-Assingment/python-30days-assignment
+2024-02-21 10:36:32.200 [info] > git config --get commit.template [91ms]
+2024-02-21 10:36:32.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-02-21 10:36:32.443 [info] > git status -z -uall [143ms]
+2024-02-21 10:36:32.498 [info] > git rev-parse --show-toplevel [73ms]
+2024-02-21 10:36:32.715 [info] > git config --get commit.template [125ms]
+2024-02-21 10:36:32.727 [info] > git merge-base refs/heads/main refs/remotes/origin/main [30ms]
+2024-02-21 10:36:32.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-02-21 10:36:33.088 [info] > git status -z -uall [111ms]
+2024-02-21 10:36:33.088 [info] > git check-ignore -v -z --stdin [57ms]
+2024-02-21 10:36:33.099 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [315ms]
+2024-02-21 10:36:33.103 [info] > git check-ignore -v -z --stdin [23ms]
+2024-02-21 10:36:33.702 [info] > git check-ignore -v -z --stdin [11ms]

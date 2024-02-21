@@ -1,0 +1,24 @@
+Visual Studio Code (1.86.2, wsl, desktop)
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+Workspace folder ~/projects/Data-Science-Assingment, Home = /home/musbah
+21:19:53.786 [info] Start refreshing Kernel Picker (1708287593785)
+21:19:53.947 [info] Using Pylance
+21:19:55.143 [info] Start refreshing Interpreter Kernel Picker
+21:20:10.915 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher  (Python Path: ~/projects/Data-Science-Assingment/venv/bin/python, Venv, venv, 3.8.10) for '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' (disableUI=true)
+21:20:11.575 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m pip list
+21:20:12.131 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:20:12.355 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-5808e1ZDaMISulQr.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+21:20:12.357 [info] Kernel process 5861.
+21:20:21.507 [info] Registering Kernel Completion Provider from kernel venv (Python) for language python
+21:20:21.722 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/pythonFiles/printJupyterDataDir.py
+21:20:21.829 [warn] Got an empty Jupyter Data Dir from ~/projects/Data-Science-Assingment/venv/bin/python, stderr = undefined
+21:20:21.829 [warn] sysPrefix was not set for ~/projects/Data-Science-Assingment/venv/bin/python
+21:20:24.738 [info] End refreshing Kernel Picker (1708287593785)
+21:36:45.663 [info] Disposing HostJupyterExecution
+21:36:45.665 [info] Dispose Kernel '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' associated with '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+21:36:45.669 [info] Dispose Kernel process 5861.
+21:36:45.767 [info] Disposing HostJupyterExecution

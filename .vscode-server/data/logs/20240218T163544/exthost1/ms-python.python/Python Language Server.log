@@ -1,0 +1,35 @@
+2024-02-18 16:37:29.375 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-18 16:37:32.374 [info] [Info  - 4:37:32 PM] (203) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-18 16:37:32.374 [info] [Info  - 4:37:32 PM] (203) Server root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 16:37:32.379 [info] [Info  - 4:37:32 PM] (203) Starting service instance "Data-Science-Assingment"
+2024-02-18 16:37:32.719 [info] [Info  - 4:37:32 PM] (203) Setting environmentName for service "Data-Science-Assingment": "/home/musbah/projects/Data-Science-Assingment/venv/bin/python"
+2024-02-18 16:38:01.689 [info] [Info  - 4:38:01 PM] (203) Auto-excluding /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/virtualenv
+2024-02-18 16:38:01.691 [info] [Info  - 4:38:01 PM] (203) Auto-excluding /home/musbah/projects/Data-Science-Assingment/venv
+2024-02-18 16:38:02.020 [info] [Info  - 4:38:02 PM] (203) Found 28 source files
+2024-02-18 16:38:02.030 [info] [Info  - 4:38:02 PM] (203) Background analysis(1) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 16:38:02.030 [info] [Info  - 4:38:02 PM] (203) Background analysis(1) started
+2024-02-18 16:38:02.189 [info] [Info  - 4:38:02 PM] (203) Starting service instance "Data-Science-Assingment"
+2024-02-18 16:38:03.642 [info] [Info  - 4:38:03 PM] (203) Setting pythonPath for service "Data-Science-Assingment": "/home/musbah/projects/Data-Science-Assingment"
+2024-02-18 16:38:03.642 [info] [Info  - 4:38:03 PM] (203) Setting environmentName for service "Data-Science-Assingment": "/home/musbah/projects/Data-Science-Assingment/venv/bin/python"
+2024-02-18 16:38:04.676 [info] [Info  - 4:38:04 PM] (203) Auto-excluding /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/virtualenv
+2024-02-18 16:38:04.676 [info] [Info  - 4:38:04 PM] (203) Auto-excluding /home/musbah/projects/Data-Science-Assingment/venv
+2024-02-18 16:38:04.737 [info] [Info  - 4:38:04 PM] (203) Found 28 source files
+2024-02-18 16:38:06.320 [info] [Info  - 4:38:06 PM] (203) Background analysis(2) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 16:38:06.332 [info] [Info  - 4:38:06 PM] (203) Background analysis(2) started
+2024-02-18 16:38:15.094 [info] [Info  - 4:38:15 PM] (203) Indexer background runner(3) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-18 16:38:15.094 [info] [Info  - 4:38:15 PM] (203) Indexing(3) started
+2024-02-18 16:38:22.863 [info] [Info  - 4:38:22 PM] (203) [BG(2)] Long operation: parsing: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist/typeshed-fallback/stdlib/builtins.pyi (6383ms)
+2024-02-18 16:38:26.328 [info] [Info  - 4:38:26 PM] (203) [BG(2)] Long operation: analyzing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python%20crash/numpy100-exercise.ipynb.py#Y401sdnNjb2RlLXJlbW90ZQ%3D%3D (11576ms)
+2024-02-18 16:38:29.349 [info] [Info  - 4:38:29 PM] (203) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/numpy.py (26023ms)
+2024-02-18 16:38:29.596 [info] [Info  - 4:38:29 PM] (203) [BG(2)] Long operation: analyzing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python%20crash/numpy100-exercise.ipynb.py#pylancePrefixCell (14838ms)
+2024-02-18 16:38:30.698 [info] [Info  - 4:38:30 PM] (203) [BG(1)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/numpy.py (27341ms)
+2024-02-18 16:38:36.110 [info] [Info  - 4:38:36 PM] (203) [BG(2)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day22/_22.py (3474ms)
+2024-02-18 16:38:36.112 [info] [Info  - 4:38:36 PM] (203) [BG(2)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day22/_22.py (3477ms)
+2024-02-18 16:38:40.962 [info] [Info  - 4:38:40 PM] (203) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day22/_22.py (6581ms)
+2024-02-18 16:38:41.016 [info] [Info  - 4:38:40 PM] (203) [BG(1)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day22/_22.py (6653ms)
+2024-02-18 16:38:41.712 [info] [Info  - 4:38:41 PM] (203) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/countries-data.py (2198ms)
+2024-02-18 16:38:41.923 [info] [Info  - 4:38:41 PM] (203) [BG(1)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/countries-data.py (2385ms)
+2024-02-18 16:39:25.123 [info] [Info  - 4:39:25 PM] (203) [IDX(3)] Long operation: scan packages file:///home/musbah/projects/Data-Science-Assingment (69888ms)
+2024-02-18 16:39:25.124 [info] [Info  - 4:39:25 PM] (203) scanned(3) 1 files over 1 exec env
+2024-02-18 16:39:26.628 [info] [Info  - 4:39:26 PM] (203) indexed(3) 1 files over 1 exec env
+2024-02-18 16:39:26.771 [info] [Info  - 4:39:26 PM] (203) Indexing finished(3).

@@ -1,0 +1,29 @@
+2024-02-18 21:16:46.693 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-18 21:17:04.496 [info] [Info  - 9:17:04 PM] (5553) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-18 21:17:04.536 [info] [Info  - 9:17:04 PM] (5553) Server root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 21:17:04.540 [info] [Info  - 9:17:04 PM] (5553) Starting service instance "Data-Science-Assingment"
+2024-02-18 21:17:05.551 [info] [Info  - 9:17:05 PM] (5553) Setting pythonPath for service "Data-Science-Assingment": "/home/musbah/projects/Data-Science-Assingment/venv/bin/python"
+2024-02-18 21:17:05.553 [info] [Info  - 9:17:05 PM] (5553) Setting environmentName for service "Data-Science-Assingment": "3.8.10 (venv venv)"
+2024-02-18 21:17:05.942 [info] [Info  - 9:17:05 PM] (5553) Assuming Python version 3.8
+2024-02-18 21:17:07.314 [info] [Info  - 9:17:07 PM] (5553) Auto-excluding /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/virtualenv
+2024-02-18 21:17:07.328 [info] [Info  - 9:17:07 PM] (5553) Auto-excluding /home/musbah/projects/Data-Science-Assingment/venv
+2024-02-18 21:17:07.380 [info] [Info  - 9:17:07 PM] (5553) Found 28 source files
+2024-02-18 21:17:21.405 [info] [Info  - 9:17:21 PM] (5553) Background analysis(1) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-18 21:17:21.406 [info] [Info  - 9:17:21 PM] (5553) Background analysis(1) started
+2024-02-18 21:17:21.608 [info] [Info  - 9:17:21 PM] (5553) Indexer background runner(2) root directory: file:///home/musbah/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-18 21:17:21.608 [info] [Info  - 9:17:21 PM] (5553) Indexing(2) started
+2024-02-18 21:17:27.540 [info] [Info  - 9:17:27 PM] (5553) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/venv/lib/python3.8/site-packages/IPython/core/display_functions.py (5572ms)
+2024-02-18 21:17:27.786 [info] [Info  - 9:17:27 PM] (5553) [BG(1)] Long operation: binding: file:///home/musbah/projects/Data-Science-Assingment/venv/lib/python3.8/site-packages/IPython/display.py (5821ms)
+2024-02-18 21:17:27.786 [info] [Info  - 9:17:27 PM] (5553) [BG(1)] Long operation: binding: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python%20crash/numpy100-exercise.ipynb.py#pylancePrefixCell (5840ms)
+2024-02-18 21:17:28.561 [info] [Info  - 9:17:28 PM] (5553) [BG(1)] Long operation: getSemanticTokens range 0:0 - 19:21 at file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python%20crash/numpy100-exercise.ipynb.py#Y224sdnNjb2RlLXJlbW90ZQ%3D%3D (6820ms)
+2024-02-18 21:17:31.162 [info] [Info  - 9:17:31 PM] (5553) [BG(1)] Long operation: analyzing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python%20crash/numpy100-exercise.ipynb.py#pylancePrefixCell (2449ms)
+2024-02-18 21:17:31.677 [info] [Info  - 9:17:31 PM] (5553) [IDX(2)] Long operation: scan packages file:///home/musbah/projects/Data-Science-Assingment (10052ms)
+2024-02-18 21:17:31.678 [info] [Info  - 9:17:31 PM] (5553) scanned(2) 123 files over 1 exec env
+2024-02-18 21:17:41.155 [info] [Info  - 9:17:41 PM] (5553) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day14/day14.py (3219ms)
+2024-02-18 21:17:41.237 [info] [Info  - 9:17:41 PM] (5553) [BG(1)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day14/day14.py (4899ms)
+2024-02-18 21:17:50.539 [info] [Info  - 9:17:50 PM] (5553) [BG(1)] Long operation: parsing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day16/day16.py (13234ms)
+2024-02-18 21:17:50.540 [info] [Info  - 9:17:50 PM] (5553) [BG(1)] Long operation: indexing: file:///home/musbah/projects/Data-Science-Assingment/python-30days-assignment/Day16/day16.py (13239ms)
+2024-02-18 21:17:53.829 [info] [Info  - 9:17:53 PM] (5553) indexed(2) 101 files over 1 exec env
+2024-02-18 21:17:54.056 [info] [Info  - 9:17:54 PM] (5553) Indexing finished(2).
+2024-02-18 21:18:49.213 [info] [Info  - 9:18:49 PM] (5553) [BG(1)] Long operation: checking: file:///home/musbah/.local/lib/python3.9/site-packages/numpy/__init__.py (4769ms)
+2024-02-18 21:18:49.214 [info] [Info  - 9:18:49 PM] (5553) [BG(1)] Long operation: analyzing: file:///home/musbah/.local/lib/python3.9/site-packages/numpy/__init__.py (5152ms)

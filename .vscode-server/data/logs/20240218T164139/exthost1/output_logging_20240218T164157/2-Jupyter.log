@@ -1,0 +1,441 @@
+Visual Studio Code (1.86.2, wsl, desktop)
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+Workspace folder ~/projects/Data-Science-Assingment, Home = /home/musbah
+16:42:20.076 [info] Start refreshing Kernel Picker (1708270940076)
+16:42:20.115 [info] Using Pylance
+16:42:28.733 [info] Start refreshing Interpreter Kernel Picker
+16:42:41.364 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher  (Python Path: ~/projects/Data-Science-Assingment/venv/bin/python, Venv, venv, 3.8.10) for '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' (disableUI=true)
+16:42:41.708 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m pip list
+16:42:42.244 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:42:42.415 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/projects/Data-Science-Assingment/venv/bin/python
+16:42:48.773 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-452xWfFQ1QobCjf.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+16:42:48.774 [info] Kernel process 536.
+16:42:49.150 [warn] StdErr from Kernel Process ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:42:49.164 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/projects/Data-Science-Assingment/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:276:2012)
+    > stdErr = ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:42:49.165 [info] Dispose Kernel process 536.
+16:42:49.383 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+16:42:49.383 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+16:42:49.385 [warn] Failed to shutdown kernel, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at J_.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:281:15465)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async $_.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:281:24053)]
+16:42:49.397 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/projects/Data-Science-Assingment/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:276:2012)
+    > stdErr = ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:43:00.164 [info] End refreshing Kernel Picker (1708270940076)
+16:44:37.486 [info] Handle Execution of Cells 1,3,5,7,8,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99,101,103,105,107,109,111,113,115,117,119,121,123,125,127,129,131,133,135,137,139,141,143,145,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197 for ~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb
+16:44:37.519 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher  (Python Path: ~/projects/Data-Science-Assingment/venv/bin/python, Venv, venv, 3.8.10) for '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' (disableUI=false)
+16:44:37.678 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:44:37.821 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for ~/projects/Data-Science-Assingment/venv/bin/python
+16:44:37.998 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-452sLLRbThoErc8.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+16:44:37.999 [info] Kernel process 654.
+16:44:38.126 [warn] StdErr from Kernel Process ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:44:38.131 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/projects/Data-Science-Assingment/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:276:2012)
+    > stdErr = ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:44:38.131 [info] Dispose Kernel process 654.
+16:44:38.139 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+16:44:38.139 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+16:44:38.140 [warn] Failed to shutdown kernel, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at J_.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:281:15465)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async $_.shutdown (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:281:24053)]
+16:44:38.146 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/projects/Data-Science-Assingment/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:276:2012)
+    > stdErr = ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:44:38.148 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/projects/Data-Science-Assingment/venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:276:2012)
+    > stdErr = ~/projects/Data-Science-Assingment/venv/bin/python: No module named ipykernel_launcher
+16:44:38.302 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:44:38.372 [info] Check & install missing Kernel dependencies for ~/projects/Data-Science-Assingment/venv/bin/python, ui.disabled=false for resource '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+16:44:38.521 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:44:38.670 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:44:44.892 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:44:45.083 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m pip install -U ipykernel
+16:58:11.428 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:58:18.026 [info] Dispose Kernel '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' associated with '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+16:58:18.106 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m pip list
+16:58:18.110 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0850d2df227d66c1632284535de9d010dc1f173e93d874f4e1839c3081337434e.~/projects/Data-Science-Assingment/venv/python.~/projects/Data-Science-Assingment/venv/python.-m#ipykernel_launcher  (Python Path: ~/projects/Data-Science-Assingment/venv/bin/python, Venv, venv, 3.8.10) for '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' (disableUI=false)
+16:58:18.244 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:58:18.905 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-4527qxPa6gifOLP.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+16:58:18.906 [info] Kernel process 719.
+16:58:28.909 [warn] Waited 10001ms for kernel to start [Error: timeout
+	at Timeout.p (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:55:1754)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+16:58:30.477 [info] Registering Kernel Completion Provider from kernel venv (Python) for language python
+16:58:30.629 [info] Kernel acknowledged execution of cell 1 @ 1708271910618
+16:58:36.183 [info] End cell 1 execution after 5.562s, completed @ 1708271916180, started @ 1708271910618
+16:58:36.229 [info] Kernel acknowledged execution of cell 3 @ 1708271916228
+16:58:36.250 [info] End cell 3 execution after 0.022s, completed @ 1708271916250, started @ 1708271916228
+16:58:36.277 [info] Kernel acknowledged execution of cell 5 @ 1708271916276
+16:58:36.435 [info] End cell 5 execution after 0.158s, completed @ 1708271916434, started @ 1708271916276
+16:58:36.463 [info] Kernel acknowledged execution of cell 7 @ 1708271916462
+16:58:36.580 [info] End cell 7 execution after 0.118s, completed @ 1708271916580, started @ 1708271916462
+16:58:36.603 [info] Kernel acknowledged execution of cell 8 @ 1708271916602
+16:58:36.852 [info] End cell 8 execution after 0.248s, completed @ 1708271916850, started @ 1708271916602
+16:58:36.887 [info] Kernel acknowledged execution of cell 11 @ 1708271916885
+16:58:37.005 [info] End cell 11 execution after 0.12s, completed @ 1708271917005, started @ 1708271916885
+16:58:37.026 [info] Kernel acknowledged execution of cell 13 @ 1708271917026
+16:58:37.147 [info] End cell 13 execution after 0.121s, completed @ 1708271917147, started @ 1708271917026
+16:58:37.157 [info] Kernel acknowledged execution of cell 15 @ 1708271917156
+16:58:37.383 [info] End cell 15 execution after 0.227s, completed @ 1708271917383, started @ 1708271917156
+16:58:37.391 [info] Kernel acknowledged execution of cell 17 @ 1708271917390
+16:58:37.593 [info] End cell 17 execution after 0.202s, completed @ 1708271917592, started @ 1708271917390
+16:58:37.603 [info] Kernel acknowledged execution of cell 19 @ 1708271917603
+16:58:37.847 [info] End cell 19 execution after 0.243s, completed @ 1708271917846, started @ 1708271917603
+16:58:37.856 [info] Kernel acknowledged execution of cell 21 @ 1708271917855
+16:58:38.096 [info] End cell 21 execution after 0.241s, completed @ 1708271918096, started @ 1708271917855
+16:58:38.105 [info] Kernel acknowledged execution of cell 23 @ 1708271918105
+16:58:38.364 [info] End cell 23 execution after 0.259s, completed @ 1708271918364, started @ 1708271918105
+16:58:38.371 [info] Kernel acknowledged execution of cell 25 @ 1708271918371
+16:58:38.569 [info] End cell 25 execution after 0.198s, completed @ 1708271918569, started @ 1708271918371
+16:58:38.579 [info] Kernel acknowledged execution of cell 27 @ 1708271918578
+16:58:38.866 [info] End cell 27 execution after 0.288s, completed @ 1708271918866, started @ 1708271918578
+16:58:38.875 [info] Kernel acknowledged execution of cell 29 @ 1708271918875
+16:58:39.191 [info] End cell 29 execution after 0.316s, completed @ 1708271919191, started @ 1708271918875
+16:58:39.202 [info] Kernel acknowledged execution of cell 31 @ 1708271919201
+16:58:39.485 [info] End cell 31 execution after 0.284s, completed @ 1708271919485, started @ 1708271919201
+16:58:39.494 [info] Kernel acknowledged execution of cell 33 @ 1708271919494
+16:58:39.793 [info] End cell 33 execution after 0.299s, completed @ 1708271919793, started @ 1708271919494
+16:58:39.801 [info] Kernel acknowledged execution of cell 35 @ 1708271919800
+16:58:40.097 [info] End cell 35 execution after 0.297s, completed @ 1708271920097, started @ 1708271919800
+16:58:40.106 [info] Kernel acknowledged execution of cell 37 @ 1708271920106
+16:58:40.454 [info] End cell 37 execution after 0.348s, completed @ 1708271920454, started @ 1708271920106
+16:58:40.469 [info] Kernel acknowledged execution of cell 39 @ 1708271920469
+16:58:40.714 [info] End cell 39 execution after 0.245s, completed @ 1708271920714, started @ 1708271920469
+16:58:40.734 [info] Kernel acknowledged execution of cell 41 @ 1708271920733
+16:58:41.063 [info] End cell 41 execution after 0.33s, completed @ 1708271921063, started @ 1708271920733
+16:58:41.074 [info] Kernel acknowledged execution of cell 43 @ 1708271921073
+16:58:41.331 [info] End cell 43 execution after 0.258s, completed @ 1708271921331, started @ 1708271921073
+16:58:41.341 [info] Kernel acknowledged execution of cell 45 @ 1708271921341
+16:58:41.683 [info] End cell 45 execution after 0.342s, completed @ 1708271921683, started @ 1708271921341
+16:58:41.695 [info] Kernel acknowledged execution of cell 49 @ 1708271921694
+16:58:42.014 [info] End cell 49 execution after 0.32s, completed @ 1708271922014, started @ 1708271921694
+16:58:42.025 [info] Kernel acknowledged execution of cell 51 @ 1708271922025
+16:58:42.340 [info] End cell 51 execution after 0.313s, completed @ 1708271922338, started @ 1708271922025
+16:58:42.348 [info] Kernel acknowledged execution of cell 53 @ 1708271922348
+16:58:42.632 [info] End cell 53 execution after 0.284s, completed @ 1708271922632, started @ 1708271922348
+16:58:42.645 [info] Kernel acknowledged execution of cell 55 @ 1708271922644
+16:58:42.950 [info] End cell 55 execution after 0.306s, completed @ 1708271922950, started @ 1708271922644
+16:58:42.966 [info] Kernel acknowledged execution of cell 57 @ 1708271922966
+16:58:43.237 [info] End cell 57 execution after 0.27s, completed @ 1708271923236, started @ 1708271922966
+16:58:43.247 [info] Kernel acknowledged execution of cell 59 @ 1708271923246
+16:58:43.611 [info] End cell 59 execution after 0.363s, completed @ 1708271923609, started @ 1708271923246
+16:58:43.615 [info] End cell 61 execution after 0s, completed @ undefined, started @ undefined
+16:58:43.623 [info] Kernel acknowledged execution of cell 63 @ 1708271923623
+16:58:43.933 [info] End cell 63 execution after 0.31s, completed @ 1708271923933, started @ 1708271923623
+16:58:43.945 [info] Kernel acknowledged execution of cell 65 @ 1708271923944
+16:58:44.110 [info] End cell 65 execution after 0.166s, completed @ 1708271924110, started @ 1708271923944
+16:58:44.122 [info] Kernel acknowledged execution of cell 67 @ 1708271924122
+16:58:44.460 [info] End cell 67 execution after 0.338s, completed @ 1708271924460, started @ 1708271924122
+16:58:44.474 [info] Kernel acknowledged execution of cell 69 @ 1708271924474
+16:58:45.811 [warn] Cell completed with errors [rd [Error]: module 'numpy' has no attribute 'int'.
+`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+	at r.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:263:4968)] {
+  ename: 'AttributeError',
+  evalue: "module 'numpy' has no attribute 'int'.\n" +
+    '`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.\n' +
+    'The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:\n' +
+    '    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[33], line 14\x1B[0m\n' +
+      '\x1B[1;32m     11\x1B[0m integer_part_casting \x1B[38;5;241m=\x1B[39m random_array\x1B[38;5;241m.\x1B[39mastype(\x1B[38;5;28mint\x1B[39m)\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m# Method 4: Using np.astype()\x1B[39;00m\n' +
+      '\x1B[0;32m---> 14\x1B[0m integer_part_astype \x1B[38;5;241m=\x1B[39m random_array\x1B[38;5;241m.\x1B[39mastype(\x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mint\x1B[49m)\n' +
+      '\x1B[1;32m     16\x1B[0m \x1B[38;5;66;03m# Display the results\x1B[39;00m\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMethod 1 (np.floor()):\x1B[39m\x1B[38;5;124m"\x1B[39m, integer_part_floor)\n',
+    'File \x1B[0;32m~/projects/Data-Science-Assingment/venv/lib/python3.8/site-packages/numpy/__init__.py:305\x1B[0m, in \x1B[0;36m__getattr__\x1B[0;34m(attr)\x1B[0m\n' +
+      '\x1B[1;32m    300\x1B[0m     warnings\x1B[38;5;241m.\x1B[39mwarn(\n' +
+      '\x1B[1;32m    301\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIn the future `np.\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mattr\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m` will be defined as the \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    302\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcorresponding NumPy scalar.\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;167;01mFutureWarning\x1B[39;00m, stacklevel\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[1;32m    304\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m attr \x1B[38;5;129;01min\x1B[39;00m __former_attrs__:\n' +
+      '\x1B[0;32m--> 305\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAttributeError\x1B[39;00m(__former_attrs__[attr])\n' +
+      '\x1B[1;32m    307\x1B[0m \x1B[38;5;66;03m# Importing Tester requires importing all of UnitTest which is not a\x1B[39;00m\n' +
+      '\x1B[1;32m    308\x1B[0m \x1B[38;5;66;03m# cheap import Since it is mainly used in test suits, we lazy import it\x1B[39;00m\n' +
+      '\x1B[1;32m    309\x1B[0m \x1B[38;5;66;03m# here to save on the order of 10 ms of import time for most users\x1B[39;00m\n' +
+      '\x1B[1;32m    310\x1B[0m \x1B[38;5;66;03m#\x1B[39;00m\n' +
+      '\x1B[1;32m    311\x1B[0m \x1B[38;5;66;03m# The previous way Tester was imported also had a side effect of adding\x1B[39;00m\n' +
+      '\x1B[1;32m    312\x1B[0m \x1B[38;5;66;03m# the full `numpy.testing` namespace\x1B[39;00m\n' +
+      "\x1B[1;32m    313\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m attr \x1B[38;5;241m==\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mtesting\x1B[39m\x1B[38;5;124m'\x1B[39m:\n",
+    "\x1B[0;31mAttributeError\x1B[0m: module 'numpy' has no attribute 'int'.\n" +
+      '`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.\n' +
+      'The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:\n' +
+      '    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations'
+  ]
+}
+16:58:45.817 [info] End cell 69 execution after 1.336s, completed @ 1708271925810, started @ 1708271924474
+16:58:45.820 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:58:45.821 [info] End cell 71 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.822 [info] End cell 73 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.822 [info] End cell 75 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.822 [info] End cell 77 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.823 [info] End cell 79 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.823 [info] End cell 81 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.823 [info] End cell 83 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.823 [info] End cell 85 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.824 [info] End cell 87 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.824 [info] End cell 89 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.824 [info] End cell 91 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.825 [info] End cell 93 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.825 [info] End cell 95 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.825 [info] End cell 97 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.825 [info] End cell 99 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.826 [info] End cell 101 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.826 [info] End cell 103 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.826 [info] End cell 105 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.826 [info] End cell 107 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.827 [info] End cell 109 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.827 [info] End cell 111 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.827 [info] End cell 113 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.827 [info] End cell 115 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.828 [info] End cell 117 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.828 [info] End cell 119 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.828 [info] End cell 121 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.829 [info] End cell 123 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.829 [info] End cell 125 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.829 [info] End cell 127 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.829 [info] End cell 129 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.830 [info] End cell 131 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.830 [info] End cell 133 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.830 [info] End cell 135 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.830 [info] End cell 137 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.831 [info] End cell 139 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.831 [info] End cell 141 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.831 [info] End cell 143 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.831 [info] End cell 145 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.832 [info] End cell 147 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.832 [info] End cell 149 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.832 [info] End cell 151 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.832 [info] End cell 153 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.833 [info] End cell 155 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.834 [info] End cell 157 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.834 [info] End cell 159 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.834 [info] End cell 161 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.835 [info] End cell 163 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.835 [info] End cell 165 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.835 [info] End cell 167 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.836 [info] End cell 169 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.836 [info] End cell 171 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.836 [info] End cell 173 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.836 [info] End cell 175 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 177 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 179 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 181 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 183 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 185 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 187 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.837 [info] End cell 189 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.838 [info] End cell 191 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.838 [info] End cell 193 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.838 [info] End cell 195 execution after 0s, completed @ undefined, started @ undefined
+16:58:45.838 [info] End cell 197 execution after 0s, completed @ undefined, started @ undefined
+17:01:42.778 [info] Restart requested ~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb
+17:01:42.784 [info] Dispose Kernel process 719.
+17:01:43.010 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:01:43.213 [info] Process Execution: ~/projects/Data-Science-Assingment/venv/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-452ap4L87aCq176.json
+    > cwd: ~/projects/Data-Science-Assingment/python-30days-assignment/python crash
+17:01:43.214 [info] Kernel process 756.
+17:01:45.109 [info] Restarted f34a3d2b-b0d0-4660-910f-cb1c212c9b86
+17:05:27.319 [info] Handle Execution of Cells 1,3,5,7,8,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99,101,103,105,107,109,111,113,115,117,119,121,123,125,127,129,131,133,135,137,139,141,143,145,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197 for ~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb
+17:05:27.634 [info] Kernel acknowledged execution of cell 1 @ 1708272327633
+17:05:27.917 [info] End cell 1 execution after 0.282s, completed @ 1708272327915, started @ 1708272327633
+17:05:28.007 [info] Kernel acknowledged execution of cell 3 @ 1708272328007
+17:05:28.033 [info] End cell 3 execution after 0.025s, completed @ 1708272328032, started @ 1708272328007
+17:05:28.055 [info] Kernel acknowledged execution of cell 5 @ 1708272328054
+17:05:28.353 [info] End cell 5 execution after 0.299s, completed @ 1708272328353, started @ 1708272328054
+17:05:28.374 [info] Kernel acknowledged execution of cell 7 @ 1708272328374
+17:05:28.742 [info] End cell 7 execution after 0.368s, completed @ 1708272328742, started @ 1708272328374
+17:05:28.752 [info] Kernel acknowledged execution of cell 8 @ 1708272328752
+17:05:29.152 [info] End cell 8 execution after 0.4s, completed @ 1708272329152, started @ 1708272328752
+17:05:29.181 [info] Kernel acknowledged execution of cell 11 @ 1708272329180
+17:05:29.510 [info] End cell 11 execution after 0.33s, completed @ 1708272329510, started @ 1708272329180
+17:05:29.544 [info] Kernel acknowledged execution of cell 13 @ 1708272329543
+17:05:30.404 [info] End cell 13 execution after 0.86s, completed @ 1708272330403, started @ 1708272329543
+17:05:30.481 [info] Kernel acknowledged execution of cell 15 @ 1708272330480
+17:05:30.543 [info] End cell 15 execution after 0.062s, completed @ 1708272330542, started @ 1708272330480
+17:05:30.578 [info] Kernel acknowledged execution of cell 17 @ 1708272330577
+17:05:30.805 [info] End cell 17 execution after 0.227s, completed @ 1708272330804, started @ 1708272330577
+17:05:30.849 [info] Kernel acknowledged execution of cell 19 @ 1708272330848
+17:05:31.252 [info] End cell 19 execution after 0.404s, completed @ 1708272331252, started @ 1708272330848
+17:05:31.280 [info] Kernel acknowledged execution of cell 21 @ 1708272331279
+17:05:31.496 [info] End cell 21 execution after 0.217s, completed @ 1708272331496, started @ 1708272331279
+17:05:31.550 [info] Kernel acknowledged execution of cell 23 @ 1708272331549
+17:05:31.771 [info] End cell 23 execution after 0.221s, completed @ 1708272331770, started @ 1708272331549
+17:05:31.823 [info] Kernel acknowledged execution of cell 25 @ 1708272331822
+17:05:32.233 [info] End cell 25 execution after 0.41s, completed @ 1708272332232, started @ 1708272331822
+17:05:32.340 [info] Kernel acknowledged execution of cell 27 @ 1708272332339
+17:05:32.942 [info] End cell 27 execution after 0.601s, completed @ 1708272332940, started @ 1708272332339
+17:05:33.030 [info] Kernel acknowledged execution of cell 29 @ 1708272333028
+17:05:33.104 [info] End cell 29 execution after 0.075s, completed @ 1708272333103, started @ 1708272333028
+17:05:33.144 [info] Kernel acknowledged execution of cell 31 @ 1708272333142
+17:05:33.535 [info] End cell 31 execution after 0.391s, completed @ 1708272333533, started @ 1708272333142
+17:05:33.583 [info] Kernel acknowledged execution of cell 33 @ 1708272333579
+17:05:34.079 [info] End cell 33 execution after 0.498s, completed @ 1708272334077, started @ 1708272333579
+17:05:34.147 [info] Kernel acknowledged execution of cell 35 @ 1708272334146
+17:05:34.562 [info] End cell 35 execution after 0.416s, completed @ 1708272334562, started @ 1708272334146
+17:05:34.576 [info] Kernel acknowledged execution of cell 37 @ 1708272334575
+17:05:35.012 [info] End cell 37 execution after 0.437s, completed @ 1708272335012, started @ 1708272334575
+17:05:35.023 [info] Kernel acknowledged execution of cell 39 @ 1708272335023
+17:05:35.319 [info] End cell 39 execution after 0.296s, completed @ 1708272335319, started @ 1708272335023
+17:05:35.394 [info] Kernel acknowledged execution of cell 41 @ 1708272335394
+17:05:35.809 [info] End cell 41 execution after 0.413s, completed @ 1708272335807, started @ 1708272335394
+17:05:35.825 [info] Kernel acknowledged execution of cell 43 @ 1708272335824
+17:05:36.275 [info] End cell 43 execution after 0.451s, completed @ 1708272336275, started @ 1708272335824
+17:05:36.344 [info] Kernel acknowledged execution of cell 45 @ 1708272336344
+17:05:36.786 [info] End cell 45 execution after 0.442s, completed @ 1708272336786, started @ 1708272336344
+17:05:36.797 [info] Kernel acknowledged execution of cell 49 @ 1708272336796
+17:05:37.387 [info] End cell 49 execution after 0.591s, completed @ 1708272337387, started @ 1708272336796
+17:05:37.545 [info] Kernel acknowledged execution of cell 51 @ 1708272337544
+17:05:38.115 [info] End cell 51 execution after 0.571s, completed @ 1708272338115, started @ 1708272337544
+17:05:38.130 [info] Kernel acknowledged execution of cell 53 @ 1708272338130
+17:05:41.052 [info] End cell 53 execution after 2.918s, completed @ 1708272341048, started @ 1708272338130
+17:05:43.486 [info] Kernel acknowledged execution of cell 55 @ 1708272343482
+17:05:43.574 [info] End cell 55 execution after 0.09s, completed @ 1708272343572, started @ 1708272343482
+17:05:43.888 [info] Kernel acknowledged execution of cell 57 @ 1708272343887
+17:05:43.890 [info] End cell 57 execution after 0.003s, completed @ 1708272343890, started @ 1708272343887
+17:05:43.902 [info] Kernel acknowledged execution of cell 59 @ 1708272343901
+17:05:44.092 [info] End cell 59 execution after 0.191s, completed @ 1708272344092, started @ 1708272343901
+17:05:44.094 [info] End cell 61 execution after 0s, completed @ undefined, started @ undefined
+17:05:44.106 [info] Kernel acknowledged execution of cell 63 @ 1708272344106
+17:05:44.387 [info] End cell 63 execution after 0.281s, completed @ 1708272344387, started @ 1708272344106
+17:05:44.472 [info] Kernel acknowledged execution of cell 65 @ 1708272344471
+17:05:44.943 [info] End cell 65 execution after 0.472s, completed @ 1708272344943, started @ 1708272344471
+17:05:44.952 [info] Kernel acknowledged execution of cell 67 @ 1708272344951
+17:05:45.718 [info] End cell 67 execution after 0.765s, completed @ 1708272345716, started @ 1708272344951
+17:05:45.739 [info] Kernel acknowledged execution of cell 69 @ 1708272345738
+17:05:46.769 [warn] Cell completed with errors [rd [Error]: module 'numpy' has no attribute 'int'.
+`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+	at r.execute (~/.vscode-server/extensions/ms-toolsai.jupyter-2024.1.1-linux-x64/dist/extension.node.js:263:4968)] {
+  ename: 'AttributeError',
+  evalue: "module 'numpy' has no attribute 'int'.\n" +
+    '`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.\n' +
+    'The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:\n' +
+    '    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[33], line 14\x1B[0m\n' +
+      '\x1B[1;32m     11\x1B[0m integer_part_casting \x1B[38;5;241m=\x1B[39m random_array\x1B[38;5;241m.\x1B[39mastype(\x1B[38;5;28mint\x1B[39m)\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m# Method 4: Using np.astype()\x1B[39;00m\n' +
+      '\x1B[0;32m---> 14\x1B[0m integer_part_astype \x1B[38;5;241m=\x1B[39m random_array\x1B[38;5;241m.\x1B[39mastype(\x1B[43mnp\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mint\x1B[49m)\n' +
+      '\x1B[1;32m     16\x1B[0m \x1B[38;5;66;03m# Display the results\x1B[39;00m\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMethod 1 (np.floor()):\x1B[39m\x1B[38;5;124m"\x1B[39m, integer_part_floor)\n',
+    'File \x1B[0;32m~/projects/Data-Science-Assingment/venv/lib/python3.8/site-packages/numpy/__init__.py:305\x1B[0m, in \x1B[0;36m__getattr__\x1B[0;34m(attr)\x1B[0m\n' +
+      '\x1B[1;32m    300\x1B[0m     warnings\x1B[38;5;241m.\x1B[39mwarn(\n' +
+      '\x1B[1;32m    301\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIn the future `np.\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mattr\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m` will be defined as the \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    302\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcorresponding NumPy scalar.\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;167;01mFutureWarning\x1B[39;00m, stacklevel\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[1;32m    304\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m attr \x1B[38;5;129;01min\x1B[39;00m __former_attrs__:\n' +
+      '\x1B[0;32m--> 305\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAttributeError\x1B[39;00m(__former_attrs__[attr])\n' +
+      '\x1B[1;32m    307\x1B[0m \x1B[38;5;66;03m# Importing Tester requires importing all of UnitTest which is not a\x1B[39;00m\n' +
+      '\x1B[1;32m    308\x1B[0m \x1B[38;5;66;03m# cheap import Since it is mainly used in test suits, we lazy import it\x1B[39;00m\n' +
+      '\x1B[1;32m    309\x1B[0m \x1B[38;5;66;03m# here to save on the order of 10 ms of import time for most users\x1B[39;00m\n' +
+      '\x1B[1;32m    310\x1B[0m \x1B[38;5;66;03m#\x1B[39;00m\n' +
+      '\x1B[1;32m    311\x1B[0m \x1B[38;5;66;03m# The previous way Tester was imported also had a side effect of adding\x1B[39;00m\n' +
+      '\x1B[1;32m    312\x1B[0m \x1B[38;5;66;03m# the full `numpy.testing` namespace\x1B[39;00m\n' +
+      "\x1B[1;32m    313\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m attr \x1B[38;5;241m==\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mtesting\x1B[39m\x1B[38;5;124m'\x1B[39m:\n",
+    "\x1B[0;31mAttributeError\x1B[0m: module 'numpy' has no attribute 'int'.\n" +
+      '`np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.\n' +
+      'The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:\n' +
+      '    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations'
+  ]
+}
+17:05:46.771 [info] End cell 69 execution after 1.03s, completed @ 1708272346768, started @ 1708272345738
+17:05:46.774 [warn] Cancel all remaining cells due to cancellation or failure in execution
+17:05:46.774 [info] End cell 71 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.775 [info] End cell 73 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.775 [info] End cell 75 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.775 [info] End cell 77 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.775 [info] End cell 79 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.776 [info] End cell 81 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.776 [info] End cell 83 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.776 [info] End cell 85 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.777 [info] End cell 87 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.777 [info] End cell 89 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.777 [info] End cell 91 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.777 [info] End cell 93 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.778 [info] End cell 95 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.778 [info] End cell 97 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.778 [info] End cell 99 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.778 [info] End cell 101 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.778 [info] End cell 103 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.779 [info] End cell 105 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.779 [info] End cell 107 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.779 [info] End cell 109 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.779 [info] End cell 111 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.780 [info] End cell 113 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.780 [info] End cell 115 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.780 [info] End cell 117 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.780 [info] End cell 119 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.781 [info] End cell 121 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.781 [info] End cell 123 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.781 [info] End cell 125 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.781 [info] End cell 127 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.782 [info] End cell 129 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.782 [info] End cell 131 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.782 [info] End cell 133 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.782 [info] End cell 135 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.783 [info] End cell 137 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.783 [info] End cell 139 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.783 [info] End cell 141 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.783 [info] End cell 143 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.784 [info] End cell 145 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.784 [info] End cell 147 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.784 [info] End cell 149 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.785 [info] End cell 151 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.785 [info] End cell 153 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.785 [info] End cell 155 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.786 [info] End cell 157 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.786 [info] End cell 159 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.786 [info] End cell 161 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 163 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 165 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 167 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 169 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 171 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.787 [info] End cell 173 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 175 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 177 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 179 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 181 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 183 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 185 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 187 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.788 [info] End cell 189 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.789 [info] End cell 191 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.789 [info] End cell 193 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.789 [info] End cell 195 execution after 0s, completed @ undefined, started @ undefined
+17:05:46.789 [info] End cell 197 execution after 0s, completed @ undefined, started @ undefined
+17:06:06.788 [info] Disposing HostJupyterExecution
+17:06:06.789 [info] Dispose Kernel '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' associated with '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+17:06:06.790 [info] Dispose Kernel '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb' associated with '~/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb'
+17:06:06.799 [info] Dispose Kernel process 756.
+17:06:06.949 [info] Disposing HostJupyterExecution

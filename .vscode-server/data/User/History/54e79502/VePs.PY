@@ -1,0 +1,159 @@
+# Change the function definition to accept a file path as a parameter
+def count_lines_and_words(file_path):
+    # Initialize counters
+    line_count = 0
+    word_count = 0
+
+    # Open the file and iterate through each line
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # Count lines
+            line_count += 1
+
+            # Count words
+            words = line.split()
+            word_count += len(words)
+
+    # Return the results
+    return line_count, word_count
+
+# Specify the file path for the Obama speech
+file_path = '/home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/obama_speech.txt'
+
+# Call the function and get the results
+lines, words = count_lines_and_words(file_path)
+
+# Print the results
+print(f"Number of lines: {lines}")
+print(f"Number of words: {words}")
+
+
+#b
+def count_lines_and_words(file_path):
+    # Initialize counters
+    line_count = 0
+    word_count = 0
+
+    # Open the file and iterate through each line
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # Count lines
+            line_count += 1
+
+            # Count words
+            words = line.split()
+            word_count += len(words)
+
+    # Return the results
+    return line_count, word_count
+
+# Specify the file path for the Michelle Obama speech
+file_path = '/home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/michelle_obama_speech.txt'  # Replace with the actual path to your file
+
+# Call the function and get the results
+lines, words = count_lines_and_words(file_path)
+
+# Print the results
+print(f"Number of lines: {lines}")
+print(f"Number of words: {words}")
+
+#c
+
+def count_lines_and_words(file_path):
+    # Initialize counters
+    line_count = 0
+    word_count = 0
+
+    # Open the file and iterate through each line
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # Count lines
+            line_count += 1
+
+            # Count words
+            words = line.split()
+            word_count += len(words)
+
+    # Return the results
+    return line_count, word_count
+
+# Specify the file path for the Donald Trump speech
+file_path = '/home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/donald_speech.txt'  # Replace with the actual path to your file
+
+# Call the function and get the results
+lines, words = count_lines_and_words(file_path)
+
+# Print the results
+print(f"Number of lines: {lines}")
+print(f"Number of words: {words}")
+
+
+
+def count_lines_and_words(file_path):
+    # Initialize counters
+    line_count = 0
+    word_count = 0
+
+    # Open the file and iterate through each line
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # Count lines
+            line_count += 1
+
+            # Count words
+            words = line.split()
+            word_count += len(words)
+
+    # Return the results
+    return line_count, word_count
+
+# Specify the file path for the Melania Trump speech
+file_path = '/home/musbah/projects/Data-Science-Assingment/python-30days-assignment/data/melina_trump_speech.txt'  # Replace with the actual path to your file
+
+# Call the function and get the results
+lines, words = count_lines_and_words(file_path)
+
+# Print the results
+print(f"Number of lines: {lines}")
+print(f"Number of words: {words}")
+
+
+
+
+import json
+
+def get_most_spoken_languages(file_path):
+    # Read the JSON file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        countries_data = json.load(file)
+
+    # Extract languages and their speakers from the data
+    languages_speakers = {}
+    for country in countries_data:
+        for language, speakers in country.get('languages', {}).items():
+            if language in languages_speakers:
+                languages_speakers[language] += speakers
+            else:
+                languages_speakers[language] = speakers
+
+    # Sort languages by the number of speakers in descending order
+    sorted_languages = sorted(languages_speakers.items(), key=lambda x: x[1], reverse=True)
+
+    # Get the top ten languages
+    top_ten_languages = sorted_languages[:10]
+
+    return top_ten_languages
+
+# Specify the file path for the countries_data.json file
+file_path = 'data/countries_data.json'  # Replace with the actual path to your file
+
+# Call the function and get the results
+most_spoken_languages = get_most_spoken_languages(file_path)
+
+# Print the results
+print("Ten Most Spoken Languages:")
+for language, speakers in most_spoken_languages:
+    print(f"{language}: {speakers} speakers")
+
+
+

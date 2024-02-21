@@ -1,0 +1,26 @@
+2024-02-18 17:06:38.078 [info] Log level: Info
+2024-02-18 17:06:38.078 [info] Validating found git in: "git"
+2024-02-18 17:06:38.078 [info] Using git "2.25.1" from "git"
+2024-02-18 17:06:38.078 [info] > git rev-parse --show-toplevel [667ms]
+2024-02-18 17:06:38.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 17:06:38.078 [info] > git rev-parse --show-toplevel [8481ms]
+2024-02-18 17:06:38.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 17:06:38.078 [info] > git rev-parse --show-toplevel [249ms]
+2024-02-18 17:06:38.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 17:06:38.339 [info] > git rev-parse --show-toplevel [509ms]
+2024-02-18 17:06:48.597 [info] > git rev-parse --git-dir --git-common-dir [2884ms]
+2024-02-18 17:06:48.662 [info] Open repository: /home/musbah/projects/Data-Science-Assingment/python-30days-assignment
+2024-02-18 17:06:50.078 [info] > git rev-parse --show-toplevel [1006ms]
+2024-02-18 17:06:50.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 17:06:50.572 [info] > git config --get commit.template [1552ms]
+2024-02-18 17:06:55.318 [info] > git rev-parse --show-toplevel [916ms]
+2024-02-18 17:06:55.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [344ms]
+2024-02-18 17:06:55.562 [info] > git check-ignore -v -z --stdin [186ms]
+2024-02-18 17:06:55.569 [info] > git rev-parse --show-toplevel [82ms]
+2024-02-18 17:06:55.569 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 17:06:57.198 [info] > git status -z -uall [206ms]
+2024-02-18 17:06:58.287 [info] > git merge-base refs/heads/main refs/remotes/origin/main [855ms]
+2024-02-18 17:06:58.347 [info] > git config --get commit.template [1027ms]
+2024-02-18 17:06:58.839 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [500ms]
+2024-02-18 17:06:59.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [513ms]
+2024-02-18 17:07:05.891 [info] > git status -z -uall [65ms]

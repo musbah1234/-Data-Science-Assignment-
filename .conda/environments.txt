@@ -1,0 +1,2 @@
+/home/musbah/miniconda3
+/home/musbah/miniconda3/envs/datascience

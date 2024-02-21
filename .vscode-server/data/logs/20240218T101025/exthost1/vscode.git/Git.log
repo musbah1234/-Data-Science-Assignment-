@@ -1,0 +1,33 @@
+2024-02-18 10:11:00.138 [info] Log level: Info
+2024-02-18 10:11:00.139 [info] Validating found git in: "git"
+2024-02-18 10:11:17.727 [info] Using git "2.25.1" from "git"
+2024-02-18 10:11:21.690 [info] > git rev-parse --show-toplevel [3780ms]
+2024-02-18 10:11:21.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 10:11:23.993 [info] > git rev-parse --show-toplevel [1086ms]
+2024-02-18 10:11:24.745 [info] > git rev-parse --git-dir --git-common-dir [358ms]
+2024-02-18 10:11:24.849 [info] Open repository: /home/musbah/projects/Data-Science-Assingment/python-30days-assignment
+2024-02-18 10:11:25.818 [info] > git config --get commit.template [566ms]
+2024-02-18 10:11:27.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1306ms]
+2024-02-18 10:11:27.486 [info] > git check-ignore -v -z --stdin [782ms]
+2024-02-18 10:11:28.422 [info] > git rev-parse --show-toplevel [2906ms]
+2024-02-18 10:11:28.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 10:11:28.998 [info] > git status -z -uall [1532ms]
+2024-02-18 10:11:29.270 [info] > git rev-parse --show-toplevel [540ms]
+2024-02-18 10:11:29.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 10:11:38.499 [info] > git config --get commit.template [9228ms]
+2024-02-18 10:11:38.510 [info] > git rev-parse --show-toplevel [45ms]
+2024-02-18 10:11:38.510 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 10:11:41.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3311ms]
+2024-02-18 10:11:44.297 [info] > git status -z -uall [1325ms]
+2024-02-18 10:11:45.620 [info] > git ls-files --stage -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [216ms]
+2024-02-18 10:11:45.630 [info] > git show --textconv :python crash/numpy100-exercise.ipynb [427ms]
+2024-02-18 10:12:01.852 [info] > git show --textconv :python crash/numpy100-exercise.ipynb [364ms]
+2024-02-18 10:12:01.894 [info] > git ls-files --stage -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [79ms]
+2024-02-18 10:12:25.994 [info] > git show --textconv :python crash/numpy100-exercise.ipynb [453ms]
+2024-02-18 10:12:25.998 [info] > git ls-files --stage -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [39ms]
+2024-02-18 10:12:32.627 [info] > git rev-parse --show-toplevel [260ms]
+2024-02-18 10:12:32.627 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 10:12:46.338 [info] > git show --textconv :python crash/numpy100-exercise.ipynb [966ms]
+2024-02-18 10:12:46.342 [info] > git ls-files --stage -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [101ms]
+2024-02-18 10:13:27.935 [info] > git show --textconv :python crash/numpy100-exercise.ipynb [964ms]
+2024-02-18 10:13:27.937 [info] > git ls-files --stage -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [53ms]

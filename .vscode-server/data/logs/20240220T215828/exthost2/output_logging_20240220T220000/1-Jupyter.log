@@ -1,0 +1,18 @@
+Visual Studio Code (1.86.2, wsl, desktop)
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+Pylance Extension Version: 2024.2.2.
+Platform: linux (x64).
+No workspace folder opened.
+22:06:01.734 [info] Start refreshing Kernel Picker (1708463161734)
+22:06:01.817 [info] Using Pylance
+22:06:04.101 [info] End refreshing Kernel Picker (1708463161734)
+22:06:06.966 [info] Start refreshing Kernel Picker (1708463166966)
+22:06:07.988 [info] End refreshing Kernel Picker (1708463166966)
+22:06:12.563 [info] Start refreshing Kernel Picker (1708463172563)
+22:06:13.022 [warn] Failed to get activated env vars for /bin/python3.9 in 273ms
+22:06:13.212 [info] Process Execution: /bin/python3.9 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+22:06:13.669 [info] End refreshing Kernel Picker (1708463172563)
+22:06:13.691 [error] Unable to determine site packages path for python /bin/python3.9 (Unknown)
+22:06:13.797 [info] Process Execution: /bin/python3.9 -m pip list
+22:06:15.776 [info] No interpreter for Pylance for Notebook URI "c:/Users/USER/Desktop/Data-Science-Assignment/numpy_Assignment.ipynb"

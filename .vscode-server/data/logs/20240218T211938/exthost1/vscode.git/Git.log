@@ -1,0 +1,54 @@
+2024-02-18 21:20:01.018 [info] Log level: Info
+2024-02-18 21:20:01.018 [info] Validating found git in: "git"
+2024-02-18 21:20:01.018 [info] Using git "2.25.1" from "git"
+2024-02-18 21:20:01.018 [info] > git rev-parse --show-toplevel [22ms]
+2024-02-18 21:20:01.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:20:01.018 [info] > git rev-parse --show-toplevel [20ms]
+2024-02-18 21:20:01.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:20:01.018 [info] > git rev-parse --show-toplevel [608ms]
+2024-02-18 21:20:01.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:20:01.026 [info] > git rev-parse --show-toplevel [8976ms]
+2024-02-18 21:20:02.180 [info] > git rev-parse --git-dir --git-common-dir [256ms]
+2024-02-18 21:20:02.210 [info] Open repository: /home/musbah/projects/Data-Science-Assingment/python-30days-assignment
+2024-02-18 21:20:03.850 [info] > git config --get commit.template [1536ms]
+2024-02-18 21:20:04.000 [info] > git rev-parse --show-toplevel [1611ms]
+2024-02-18 21:20:04.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:20:04.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [151ms]
+2024-02-18 21:20:04.265 [info] > git check-ignore -v -z --stdin [89ms]
+2024-02-18 21:20:04.594 [info] > git status -z -uall [107ms]
+2024-02-18 21:20:04.971 [info] > git config --get commit.template [200ms]
+2024-02-18 21:20:05.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-02-18 21:20:05.468 [info] > git status -z -uall [82ms]
+2024-02-18 21:20:47.734 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-18 21:24:59.246 [info] > git merge-base refs/heads/main refs/remotes/origin/main [44ms]
+2024-02-18 21:24:59.434 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [71ms]
+2024-02-18 21:24:59.754 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-18 21:24:59.755 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:25:00.085 [info] > git check-ignore -v -z --stdin [16ms]
+2024-02-18 21:25:06.758 [info] > git show --textconv HEAD:python crash/numpy100-exercise.ipynb [234ms]
+2024-02-18 21:25:06.780 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [48ms]
+2024-02-18 21:25:24.084 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [19ms]
+2024-02-18 21:25:49.576 [info] > git rev-parse --show-toplevel [20ms]
+2024-02-18 21:25:49.576 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:26:11.715 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/styling_function.py [146ms]
+2024-02-18 21:26:11.730 [info] > git show --textconv HEAD:python crash/styling_function.py [255ms]
+2024-02-18 21:26:18.552 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [18ms]
+2024-02-18 21:26:28.625 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/styling_function.py [46ms]
+2024-02-18 21:26:35.041 [info] > git rev-parse --show-toplevel [16ms]
+2024-02-18 21:26:35.041 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:26:44.392 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/styling_function.py [51ms]
+2024-02-18 21:26:51.319 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [20ms]
+2024-02-18 21:26:54.747 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/styling_function.py [58ms]
+2024-02-18 21:27:03.026 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [23ms]
+2024-02-18 21:27:07.882 [info] > git rev-parse --show-toplevel [51ms]
+2024-02-18 21:27:07.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:27:31.830 [info] > git show --textconv HEAD:python crash/numpy100-exercise.ipynb [69ms]
+2024-02-18 21:27:31.831 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [14ms]
+2024-02-18 21:32:28.345 [info] > git rev-parse --show-toplevel [21ms]
+2024-02-18 21:32:28.346 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:32:45.314 [info] > git show --textconv HEAD:python crash/numpy100-exercise.ipynb [58ms]
+2024-02-18 21:32:45.324 [info] > git ls-tree -l HEAD -- /home/musbah/projects/Data-Science-Assingment/python-30days-assignment/python crash/numpy100-exercise.ipynb [14ms]
+2024-02-18 21:34:00.926 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-18 21:34:00.926 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-18 21:34:17.207 [info] > git rev-parse --show-toplevel [45ms]
+2024-02-18 21:34:17.207 [info] fatal: not a git repository (or any of the parent directories): .git
