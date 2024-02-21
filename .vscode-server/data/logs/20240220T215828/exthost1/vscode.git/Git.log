@@ -59,3 +59,13 @@
 2024-02-21 10:36:33.099 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [315ms]
 2024-02-21 10:36:33.103 [info] > git check-ignore -v -z --stdin [23ms]
 2024-02-21 10:36:33.702 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-21 11:18:10.471 [info] > git config --get commit.template [96ms]
+2024-02-21 11:18:10.481 [info] > git config --get commit.template [12ms]
+2024-02-21 11:18:10.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [52ms]
+2024-02-21 11:18:10.633 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/ArewaDS-Machine-Learning/.git/refs/remotes/origin/main'
+2024-02-21 11:18:10.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [56ms]
+2024-02-21 11:18:10.684 [warning] ENOENT: no such file or directory, open '/home/musbah/projects/arewa-ds-workspace/.git/refs/remotes/origin/main'
+2024-02-21 11:18:10.687 [info] > git rev-parse refs/remotes/origin/main [54ms]
+2024-02-21 11:18:10.734 [info] > git rev-parse refs/remotes/origin/main [51ms]
+2024-02-21 11:18:10.789 [info] > git status -z -uall [58ms]
+2024-02-21 11:18:10.804 [info] > git status -z -uall [18ms]
